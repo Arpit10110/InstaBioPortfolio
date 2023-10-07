@@ -1,0 +1,119 @@
+.Contact {
+    height: 65vh;
+    background-image: url("../assets/bgtest1.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    padding: 2.5rem;
+    padding-left: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin: auto;
+    height: 44vh;
+    box-shadow: 0px 0px 5px #e200ff;
+    margin-top: 0rem;
+    border: 0.17rem solid #ec08ff;
+}
+.inputs {
+    width: 21vw;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+.inputsMessage {
+    width: 21vw;
+    height: 10vh;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 2px solid rgb(255 255 255);
+    border-radius: 1rem;
+}
+.formbtn{
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    border: 4px soild red;
+    margin: auto;
+    margin-top: 2rem;
+    width: 6vw;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.formbtn:hover{
+    color: #ec08ff;
+}
+.aofSubmit{
+    display: flex;
+}
+@media only screen and (width<= 430px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 68vw;
+        padding: 2.5rem;
+        padding-left: 1.5rem;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin: auto;
+        background-color: black;
+        height: 55vh;
+        margin-top: 0rem;
+    }
+    .inputs {
+        width: 69vw;
+        margin-top: 1rem;
+        padding: 0.3rem;
+        padding-left: 0.8rem;
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+        border: 2px solid white;
+        border-radius: 0.7rem;
+        height: 2.7vh;
+    }
+    .inputsMessage {
+        width: 69vw;
+        margin-top: 1rem;
+        padding: 0.3rem;
+        padding-left: 0.8rem;
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+        border: 2px solid white;
+        border-radius: 1.5rem;
+        height: 15.7vh;
+    }
+    .formbtn {
+        color: black;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+        margin: auto;
+        margin-top: 2rem;
+        width: 28vw;
+        font-weight: bold;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    .Contact {
+        height: 156.5vw;
+        background-color: black;
+        padding-top: 3rem;
+    }
+}
