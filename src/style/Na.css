@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+nav {
+  background-color: #2f2f2f;
+  width: 15%;
+  height: 100vh;
+  padding-top: 3.5rem;
+  overflow: hidden;
+}
+.navlinks {
+  width: auto;
+  font-family: "Gabarito", cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-left: 1rem;
+}
+.navlinks a {
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navlinks .Icons-MateralUi {
+  font-size: 2.1rem;
+  color: rgb(255, 171, 37);
+}
+.socialmedia {
+  font-family: "Gabarito", cursive;
+  padding-top: 3rem;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.socialhead {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.socialmedia a {
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.8vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+.socialmedia .social-link {
+  font-size: 2.1rem;
+  color: rgb(255, 171, 37);
+}
+.BtnDiv .MenuBtn {
+  display: none;
+}
+.BtnDiv .CloseBtn {
+  display: none;
+}
+@media only screen and (width<= 600px) {
+  .BtnDiv .MenuBtn {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    z-index: -39;
+    padding-top: 0.3rem;
+  }
+  .BtnDiv .CloseBtn {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1.1rem;
+  }
+  nav {
+    display: none;
+    background-color: #2f2f2f;
+    width: 60%;
+    height: 100vh;
+    padding-top: 0.5rem;
+    overflow: hidden;
+  }
+  .navlinks {
+    width: auto;
+    font-family: "Gabarito", cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+  }
+  .navlinks a {
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .socialmedia {
+    font-family: "Gabarito", cursive;
+    padding-top: 2rem;
+    padding-left: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  .socialmedia a {
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
