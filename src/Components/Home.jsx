@@ -9,6 +9,7 @@ import profilePic from  "../assets/portfolioPhoto.png"
 import foodDeleivery from  "../assets/foodDeleivery.png"
 import ScolarMart from  "../assets/ScolarMart.png"
 import Chithi from  "../assets/Chithi.png"
+import LastImg from  "../assets/aboutImg.gif"
 const Home = () => {
    function closefun(){
     if (window.innerWidth <= 600) {
@@ -125,6 +126,25 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="page4">
+        <div className="achiv-exp">
+          <h3>Achievement  & Experience</h3>
+          <div>
+            <h4>✨Completed InternShip at Edunet (3 months)</h4>
+            <h4>✨Achieved a remarkable score of 1000+ in GFG (DSA)</h4>
+            <h4>✨Selected as a campus ambassador for GeeksForGeeks</h4>
+            <h4>✨Selected as a campus ambassador for Engineerhub</h4>
+            <h4>✨Secured the first prize in Accurate College's hackathon</h4>
+            <h4>✨Ranked within the top 10 participants in Illm College's hackathon</h4>
+          </div>
+        </div>
+        <div className="LastImg">
+          <img src={LastImg} alt="Aboutme" />
+        </div>
+      </div>
+      <footer className="copyRight">
+      <h4>Copyright © www.Arpit.onrender.com all rights are reserved!!!</h4>
+      </footer>
    </div>
     </>
   )

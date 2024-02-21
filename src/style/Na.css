@@ -53,7 +53,7 @@ nav {
   cursor: pointer;
 }
 .socialmedia a img {
-width: 25%;
+width: 20%;
 }
 .BtnDiv .MenuBtn {
   display: none;
@@ -119,6 +119,6 @@ width: 25%;
     cursor: pointer;
   }
   .socialmedia a img {
-    width: 20%;
+    width: 18%;
     }
 }

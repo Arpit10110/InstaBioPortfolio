@@ -9,6 +9,7 @@
   top: 0rem;
   right: 0rem;
   overflow: scroll;
+  padding-bottom: 1rem;
 }
 .Main::-webkit-scrollbar {
   width: 0px;
@@ -131,12 +132,12 @@
   height: auto;
   margin-bottom: 6rem;
 }
-.page3-intro{
+.page3-intro {
   font-size: 3.5vw;
   text-align: center;
   margin-bottom: 4rem;
 }
-.skillWraper{
+.skillWraper {
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -151,28 +152,28 @@
   border-radius: 1rem;
   padding-top: 0.4rem;
 }
-.frontend{
+.frontend {
   display: flex;
   flex-direction: column;
 }
-.frontend h3{
+.frontend h3 {
   font-size: 2.1vw;
   text-align: center;
 }
-.backend h3{
+.backend h3 {
   font-size: 2.1vw;
   text-align: center;
 }
-.other h3{
+.other h3 {
   font-size: 2.1vw;
   text-align: center;
 }
-.design h3{
+.design h3 {
   font-size: 2.1vw;
   text-align: center;
 }
 
-.allSkill{
+.allSkill {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -216,37 +217,49 @@
   border-radius: 0.3rem;
   font-size: 1.2vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+.achiv-exp {
+  width: 55%;
+}
+.achiv-exp h3 {
+  text-align: center;
+  font-size: 3vw;
+}
+.achiv-exp div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 1.2rem;
+  font-size: 1.5vw;
+  margin-top: 3rem;
+}
+.LastImg {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LastImg img {
+  width: 90%;
+}
+.copyRight {
+  width: 100%;
+  height: 5vh;
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-bottom: -14rem;
+}
 
 @media only screen and (width<= 600px) {
   .Main {
@@ -320,7 +333,7 @@
     justify-content: center;
     align-items: center;
     gap: 6vw;
-}
+  }
   .FrontpageProject-Card {
     width: 80%;
     border: 1px solid #646464;
@@ -376,87 +389,131 @@
   .page2 {
     height: auto;
     margin-bottom: 4rem;
-}
-.page3-intro {
-  font-size: 10vw;
-  text-align: center;
-  margin-bottom: 4rem;
-}
-.skillWraper {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-}
-.Skill {
-  width: 80%;
-  background-color: #414141d1;
-  cursor: pointer;
-  height: auto;
-  padding-bottom: 4rem;
-  border-radius: 1rem;
-  padding-top: 0.4rem;
-}
-.frontend h3 {
-  font-size: 7.5vw;
-  text-align: center;
-}
-.backend h3 {
-  font-size: 7.5vw;
-  text-align: center;
-}
-.other h3 {
-  font-size: 7.5vw;
-  text-align: center;
-}
-.design h3 {
-  font-size: 7.5vw;
-  text-align: center;
-}
-.allSkill {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1rem;
-  align-items: center;
-  /* margin: auto; */
-  margin-top: 2rem;
-  padding: 0.8rem;
-}
-.allSkill :nth-child(1) {
-  border: 2px solid #fff74c;
-  background-color: black;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
-  font-size: 4.2vw;
-}
-.allSkill :nth-child(2) {
-  border: 2px solid #ff47ff;
-  background-color: black;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
-  font-size: 4.2vw;
-}
-.allSkill :nth-child(3) {
-  border: 2px solid #61ff61;
-  background-color: black;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
-  font-size: 4.2vw;
-}
-.allSkill :nth-child(4) {
-  border: 2px solid #68edff;
-  background-color: black;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
-  font-size: 4.2vw;
-}
-.allSkill :nth-child(5) {
-  border: 2px solid hsl(41, 100%, 59%);
-  background-color: black;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
-  font-size: 4.2vw;
-}
+  }
+  .page3-intro {
+    font-size: 10vw;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .skillWraper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .Skill {
+    width: 80%;
+    background-color: #414141d1;
+    cursor: pointer;
+    height: auto;
+    padding-bottom: 4rem;
+    border-radius: 1rem;
+    padding-top: 0.4rem;
+  }
+  .frontend h3 {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+  .backend h3 {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+  .other h3 {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+  .design h3 {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+  .allSkill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    /* margin: auto; */
+    margin-top: 2rem;
+    padding: 0.8rem;
+  }
+  .allSkill :nth-child(1) {
+    border: 2px solid #fff74c;
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 4.2vw;
+  }
+  .allSkill :nth-child(2) {
+    border: 2px solid #ff47ff;
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 4.2vw;
+  }
+  .allSkill :nth-child(3) {
+    border: 2px solid #61ff61;
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 4.2vw;
+  }
+  .allSkill :nth-child(4) {
+    border: 2px solid #68edff;
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 4.2vw;
+  }
+  .allSkill :nth-child(5) {
+    border: 2px solid hsl(41, 100%, 59%);
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 4.2vw;
+  }
+  .page4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3rem;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .achiv-exp {
+    width: 97%;
+  }
+  .achiv-exp h3 {
+    text-align: center;
+    font-size: 7vw;
+  }
+  .achiv-exp div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 0.8rem;
+    font-size: 4.1vw;
+    margin-top: 2rem;
+  }
+  .LastImg {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LastImg img {
+    width: 95%;
+  }
+  .copyRight {
+    width: 100%;
+    height: 7vh;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.1vw;
+    margin-bottom: -14rem;
+  }
 }
