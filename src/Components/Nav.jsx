@@ -46,8 +46,8 @@ const Nav = () => {
         <h4 className='socialhead' data-aos="fade-right"  data-aos-duration="2400">Social Media</h4>
     <div className="socialmedia">
         <a href='https://www.facebook.com/arpit.agrahari.5' data-aos="fade-right"  data-aos-duration="2300" onClick={closefun}><FacebookIcon className='social-link'/> Facebook</a>
-        <a href='https://www.instagram.com/anonymous.____69_/' data-aos="fade-right"  data-aos-duration="2100" onClick={closefun}><InstagramIcon className='social-link'/> Instagram</a>
-        <a href='https://www.linkedin.com/in/arpit-agrahari-54aa192a1/' data-aos="fade-right"  data-aos-duration="1900" onClick={closefun}><GitHubIcon className='social-link'/> Github</a>
+        <a href='https://www.instagram.com/___arpit_._/' data-aos="fade-right"  data-aos-duration="2100" onClick={closefun}><InstagramIcon className='social-link'/> Instagram</a>
+        <a href='https://github.com/Arpit10110' data-aos="fade-right"  data-aos-duration="1900" onClick={closefun}><GitHubIcon className='social-link'/> Github</a>
         <a href='https://x.com/ArpitAgrahari26?t=IyDaE6R8sNL10VQlozEYrQ&s=09' data-aos="fade-right"  data-aos-duration="1700" onClick={closefun}><XIcon className='social-link'/> Twitter</a>
         <a href='https://www.linkedin.com/in/arpit-agrahari-54aa192a1/' data-aos="fade-right"  data-aos-duration="1500" onClick={closefun}><LinkedInIcon className='social-link'/> Linkedin</a>
     </div>
