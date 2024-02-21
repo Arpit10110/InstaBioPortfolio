@@ -70,7 +70,7 @@ const Home = () => {
           <img src={Chithi} alt="Chithi" />
           <div className="ProjectCont">
             <h5>CHITTHI</h5>
-            <p>It is Chatting App where we can chat solo or with groups. I have used the HtML , CSS , JavaScritp , Node ,Express and Web Socket</p>
+            <p>It is Chatting App where we can chat solo or with groups. I have used the HTML , CSS , JavaScript , Node.js ,Express.js and Web Socket</p>
             <a href="https://chitthi-by-arpit.onrender.com/">Vist the vebsite↗️</a>
           </div>
         </div>
